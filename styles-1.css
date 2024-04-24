@@ -1,6 +1,11 @@
 body {
 	color: cyan;
-	background-color: magenta;
+	background-color: rgb(42, 12, 12);
+}
+
+main {
+	padding: 2rem;
+	text-align: center;
 }
 
 h1 {
