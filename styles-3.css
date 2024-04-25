@@ -1,0 +1,110 @@
+/* Fraunces */
+
+.fraunces-regular {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+.fraunces-bold {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
+
+/* Sedan */
+
+.sedan-regular {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedan-regular-italic {
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Inknut */
+
+.inknut-antiqua-light {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inknut-antiqua-regular {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inknut-antiqua-medium {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inknut-antiqua-semibold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inknut-antiqua-bold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inknut-antiqua-extrabold {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.inknut-antiqua-black {
+  font-family: "Inknut Antiqua", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* ****************************************************************************************************** */
+
+body {
+	color: hsl(19, 63%, 54%);
+	background-color: hsl(0, 11%, 12%);
+	font-size: 3.2vw;
+		font-family: "Fraunces", serif;
+		font-optical-sizing: auto;
+		font-weight: 900;
+		font-style: normal;
+		font-variation-settings:
+			"SOFT" 1,
+			"WONK" 0.5;
+}
+
+main {
+	padding: 2rem;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+}
+
+a {
+	font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: italic;
+
+}
