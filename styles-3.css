@@ -86,25 +86,36 @@ body {
 	font-size: 3.2vw;
 		font-family: "Fraunces", serif;
 		font-optical-sizing: auto;
-		font-weight: 900;
+		font-weight: 800;
 		font-style: normal;
 		font-variation-settings:
 			"SOFT" 1,
 			"WONK" 0.5;
-}
-
-main {
-	padding: 2rem;
+	padding: 3.2vw;
 	text-align: center;
 }
 
+header, h1, main, p {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
 h1 {
-	color: white;
+	padding-left: 16.5vw;
 }
 
 a {
+	color: hsl(19, 63%, 74%);
 	font-family: "Sedan", serif;
   font-weight: 400;
   font-style: italic;
+}
 
+p:nth-child(1) {
+	color: hsl(19, 63%, 34%);
+}
+
+p:nth-child(2) {
+	color: hsl(19, 63%, 44%);
 }
