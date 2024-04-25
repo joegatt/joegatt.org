@@ -1,0 +1,93 @@
+.caprasimo-regular {
+  font-family: "Caprasimo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ****************************************************************************************************** */
+
+body {
+	background-color: hsl(0, 11%, 12%);
+	color: hsl(19, 63%, 34%);
+	font-family: "Caprasimo", serif;
+	font-size: 3.8vw;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.2;
+	padding: 3.2vw;
+	text-align: center;
+}
+
+header, h1, main, p, aside {
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	color: hsl(199, 63%, 64%);
+	font-weight: 400;
+	padding-left: 16.5vw;
+}
+
+a {
+	text-decoration-skip-ink: auto;
+	text-decoration-thickness: 1px;
+	text-underline-offset: 4px;
+}
+
+p a.email {
+	color: hsl(199, 63%, 64%);
+}
+
+p:nth-child(1), p:nth-child(7), p:nth-child(7) a, .asterisk {
+	color: hsl(19, 63%, 34%);
+}
+
+p:nth-child(2), p:nth-child(6) {
+	color: hsl(19, 63%, 44%);
+}
+
+p:nth-child(3), p:nth-child(5), p:nth-child(5) a {
+	color: hsl(19, 63%, 54%);
+}
+
+p:nth-child(4) {
+	color: hsl(19, 63%, 64%);
+}
+
+.asterisk {
+	animation-direction: alternate;
+	animation-duration: 1800ms;
+	animation-iteration-count: infinite;
+	animation-name: blink;
+	-webkit-animation: blink 1800ms infinite;
+	font-size: 9vw;
+	vertical-align: -5.5vw;
+	transition: all .25s ease-in;
+}
+
+@keyframes blink {
+	from {
+		color:hsl(19, 63%, 54%);
+	}
+	to {
+		color: hsl(19, 63%, 34%);;
+	}
+}
+@-webkit-keyframes blink {
+	from {
+		color:hsl(19, 63%, 54%);
+	}
+	to {
+		color: hsl(19, 63%, 34%);;
+	}
+}
+
+@media all and (min-width: 1200px) {
+	p a:hover {
+		color: hsl(19, 63%, 64%);
+		text-decoration-color: hsl(199, 63%, 64%);
+		transition: all .35s ease-in;
+	}
+}
