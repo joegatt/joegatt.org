@@ -61,6 +61,7 @@ p:nth-child(4) {
 	animation-duration: 1800ms;
 	animation-iteration-count: infinite;
 	animation-name: blink;
+	animation: blink 1800ms infinite;
 	-webkit-animation: blink 1800ms infinite;
 	font-size: 9vw;
 	vertical-align: -5.5vw;
